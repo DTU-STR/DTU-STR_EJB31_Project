@@ -1,4 +1,4 @@
-package client.kap02;
+package kap02.client;
 
 import java.util.Properties;
 
@@ -7,7 +7,8 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.rmi.PortableRemoteObject;
 
-import server.kap02.ErstesBeanRemote;
+import kap02.server.ErstesBeanRemote;
+
 
 public class ErstesBeanMain {
 

@@ -4,7 +4,7 @@
 		<delete file="build/ErstesBean.jar"></delete>
 		<jar jarfile="build/ErstesBean.jar">
 		  <fileset dir="bin">
-		  	<include name="server.kap02/**/*.class" />
+		  	<include name="kap02.server/**/*.class" />
 		  </fileset>
 		</jar>
 	</target>

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package server.kap02;
+package kap02.server;
 
 import javax.ejb.Remote;
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Build EJB 31" basedir="." default="deploy">
+	<target name="package">
+		<delete file="ErstesBean.jar"></delete>
+		<jar jarfile="ErstesBean.jar">
+		  <fileset dir="bin">
+		  	<include name="server.kap02/**/*.class" />
+		  </fileset>
+		</jar>
+	</target>
+	
+	<target name="deploy" depends="package">
+		<copy file="ErstesBean.jar"
+			todir="F:/Entwicklung/jboss-as-7.1.0.CR1b/standalone/deployments" />
+	</target>
+
+</project>
